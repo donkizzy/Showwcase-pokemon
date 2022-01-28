@@ -1,7 +1,7 @@
 
 
 import 'package:equatable/equatable.dart';
-import 'package:pokemon_go/models/pokemon.dart';
+import 'package:showwcase_pokemon/models/pokemon.dart';
 
 
 

@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokemon_go/bloc/fetch_pokemons/fetch_pokemon_event.dart';
-import 'package:pokemon_go/bloc/fetch_pokemons/fetch_pokemon_state.dart';
+import 'package:showwcase_pokemon/bloc/fetch_pokemons/fetch_pokemon_event.dart';
+import 'package:showwcase_pokemon/bloc/fetch_pokemons/fetch_pokemon_state.dart';
 import 'package:palette_generator/palette_generator.dart';
-import 'package:pokemon_go/models/pokemon.dart';
-import 'package:pokemon_go/repository/pokemon_repository.dart';
-import 'package:pokemon_go/shared/utilities.dart';
+import 'package:showwcase_pokemon/models/pokemon.dart';
+import 'package:showwcase_pokemon/repository/pokemon_repository.dart';
+import 'package:showwcase_pokemon/shared/utilities.dart';
 
 class FetchPokemonBloc extends Bloc<FetchPokemonEvent, FetchPokemonState> {
   final PokemonRepository _pokemonRepository = PokemonRepository();

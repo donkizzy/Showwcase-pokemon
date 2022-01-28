@@ -2,7 +2,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:pokemon_go/models/pokemon.dart';
+import 'package:showwcase_pokemon/models/pokemon.dart';
 
 part 'pokemon_store_event.dart';
 part 'pokemon_store_state.dart';

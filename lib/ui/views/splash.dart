@@ -1,9 +1,6 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:pokemon_go/shared/app_colors.dart';
-import 'package:pokemon_go/shared/app_constant.dart';
-import 'package:pokemon_go/ui/views/home.dart';
+import 'package:showwcase_pokemon/shared/app_colors.dart';
+import 'package:showwcase_pokemon/shared/app_constants.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
