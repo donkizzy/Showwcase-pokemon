@@ -171,7 +171,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                       decoration: const BoxDecoration(
                         color: mecuryGrey,
                       ),
-                      child: GridView.builder(
+                      child: state.pokemon.isNotEmpty ? GridView.builder(
                         shrinkWrap: true,
                         padding: const EdgeInsets.all(12),
                         itemCount: state.pokemon.length,
@@ -183,12 +183,12 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                               0.6,
                         ),
                         itemBuilder: (BuildContext context, int index) {
-                          return PokemonItem(
+                          return  PokemonItem(
                             key: UniqueKey(),
                             pokemon: state.pokemon[index],
-                          );
+                          ) ;
                         },
-                      ),
+                      ) : const Center(child: Text('You do not have any favourite Pokemons yet ',style: TextStyle(fontSize: 18),)),
                     );
                   }
 

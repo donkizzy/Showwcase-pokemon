@@ -1,7 +1,6 @@
 
 import 'package:dio/dio.dart';
 import 'package:showwcase_pokemon/network/api_error.dart';
-import 'package:showwcase_pokemon/network/app_interceptor.dart';
 
 
 
@@ -12,8 +11,6 @@ class NetworkProvider{
         connectTimeout:30000,
         receiveTimeout:30000
     ));
-
-    dio.interceptors.add(AppInterceptor());
     dio.interceptors.add(LogInterceptor(responseBody: true,error: true,request: true,requestBody: true));
 
     return dio;
