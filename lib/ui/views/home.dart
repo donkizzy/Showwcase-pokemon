@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokemon_go/bloc/favourite_pokemons/favourite_pokemons_bloc.dart';
-import 'package:pokemon_go/bloc/fetch_pokemons/fetch_pokemon_bloc.dart';
-import 'package:pokemon_go/bloc/fetch_pokemons/fetch_pokemon_event.dart';
-import 'package:pokemon_go/bloc/fetch_pokemons/fetch_pokemon_state.dart';
-import 'package:pokemon_go/models/pokemon.dart';
-import 'package:pokemon_go/shared/app_colors.dart';
-import 'package:pokemon_go/ui/widgets/all_pokemon.dart';
-import 'package:pokemon_go/ui/widgets/pokemon_item.dart';
-import 'package:pokemon_go/ui/widgets/pokemon_loader.dart';
-import 'package:pokemon_go/ui/widgets/rectangle_tab_indicator.dart';
+import 'package:showwcase_pokemon/bloc/favourite_pokemons/favourite_pokemons_bloc.dart';
+import 'package:showwcase_pokemon/bloc/fetch_pokemons/fetch_pokemon_bloc.dart';
+import 'package:showwcase_pokemon/bloc/fetch_pokemons/fetch_pokemon_event.dart';
+import 'package:showwcase_pokemon/bloc/fetch_pokemons/fetch_pokemon_state.dart';
+import 'package:showwcase_pokemon/models/pokemon.dart';
+import 'package:showwcase_pokemon/shared/app_colors.dart';
+import 'package:showwcase_pokemon/ui/widgets/all_pokemon.dart';
+import 'package:showwcase_pokemon/ui/widgets/pokemon_item.dart';
+import 'package:showwcase_pokemon/ui/widgets/pokemon_loader.dart';
+import 'package:showwcase_pokemon/ui/widgets/rectangle_tab_indicator.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
