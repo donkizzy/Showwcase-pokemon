@@ -1,6 +1,6 @@
 
 
-import 'package:pokemon_go/models/base_response.dart';
+import 'package:showwcase_pokemon/models/base_response.dart';
 
 class PokemonResponse extends BaseResponse {
   PokemonResponse({

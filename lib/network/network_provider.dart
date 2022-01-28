@@ -1,7 +1,7 @@
 
 import 'package:dio/dio.dart';
-import 'package:pokemon_go/network/api_error.dart';
-import 'package:pokemon_go/network/app_interceptor.dart';
+import 'package:showwcase_pokemon/network/api_error.dart';
+import 'package:showwcase_pokemon/network/app_interceptor.dart';
 
 
 
